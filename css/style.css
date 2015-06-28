@@ -726,6 +726,11 @@ blockquote.pull-right.green {
   background:#1bc4f5;
 }
 
+.lightgreybg,
+.highlight.lightgrey {
+  background-color:#f3f3f0;
+}
+
 .bluebg,
 .highlight.blue {
   background:#1e53d8;
@@ -979,7 +984,6 @@ blockquote.pull-right.green {
 .section {
   position: relative;
   padding:115px 0 0;
-  background-color: #fff;
   overflow: hidden;
 }
 
