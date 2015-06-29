@@ -530,6 +530,8 @@
                             </div><!-- End .member -->
                         </div><!-- End .col-md-3 -->
                         
+                        <div id="handleEntry"></div>
+                        
                     </div><!-- End .row -->
                 </div><!-- End .container -->
 
@@ -544,6 +546,7 @@
         <script src="js/jquery.themepunch.tools.min.js"></script>
         <script src="js/jquery.themepunch.revolution.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/handlebars-v3.0.3.js"></script>
         <script>
             $(function() {
                 // Slider Revolution for Home Section
@@ -581,5 +584,50 @@
             });
         </script>
 
+        <script id="team-template" type="text/x-handlebars-template">
+            {{#each team}}
+            <div class="col-md-3 col-xs-6 member-container">
+                <div class="member left">
+                    <div class="member-wrapper">
+                        <figure class="front">
+                            <img src="images/team/{{image}}" alt="{{name}}" class="img-responsive">
+                        </figure>
+                        <div class="back">
+                            <div class="vcenter-container">
+                                <div class="vcenter">
+                                    <h2>{{this.name}}</h2>
+                                    {{#if this.position}}
+                                    <p>{{this.position}}</p>
+                                    {{/if}}
+                                    <hr>
+                                    <p>Ask Me about:</p>
+                                    <ul>
+                                        {{#if this.work}}
+                                        <li><em>Cowork: </em>{{this.work}}</li>
+                                        {{/if}}
+                                        {{#if this.game}}
+                                        <li><em>Gaming: </em>{{this.game}}</li>
+                                        {{/if}}
+                                    </ul>
+                                </div><!-- End .vcenter -->
+                            </div><!-- End .vcenter-container -->
+
+                        </div><!-- End .back -->
+                    </div><!-- End .member-wrapper -->
+                </div><!-- End .member -->
+            </div><!-- End .col-md-3 -->
+            {{/each}}
+        </script>
+        
+        <script>
+            var source = $("#team-template").html();
+            var template = Handlebars.compile(source);
+            var jqhxr = $.getJSON("team.json", null)
+                .done(function(data){
+                    var html = template(data);
+                    $("#handleEntry").html(html);
+                });
+            
+        </script>
 </body>
 </html>
