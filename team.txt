@@ -1,4 +1,89 @@
 {"team":[
-    {"image": "john.jpg", "name": "John Lange", "position": "Owner", "work": ".Net Development, Web Design, anything server/deployment related", "game": "Dota 2, Snake Oil, Shadowrun, Speedrunners, Nidhogg, Artemis, D&D, Unreal Tournament, Mario, basically any game"},
-    {"image": "edd.jpg", "name": "-edd", "position": "Owner", "work": "Carrying large amounts of cash", "game": "Snake Oil, FTL, Payday 2, Robo Rally, Formula D, D&D, Shadowrun"}
+    {
+        "image": "john.jpg", 
+        "name": "John Lange", 
+        "position": "Founder", 
+        "work": ".Net Development, Web Design, anything server/deployment related", 
+        "game": "Dota 2, Snake Oil, Shadowrun, Speedrunners, Nidhogg, Artemis, D&D, Unreal Tournament, Mario, basically any game"
+    },
+    {
+        "image": "edd.jpg", 
+        "name": "-edd", 
+        "position": "Founder", 
+        "game": "Snake Oil, FTL, Payday 2, Robo Rally, Formula D, D&D, Shadowrun"
+    },
+    {
+        "image": "jean.jpg", 
+        "name": "Jean", 
+        "work": "Ruby on Rails, Git, JavaScript, Process", 
+        "game": "Titan Quest, A Tale in the Desert (seriously, don't mention this game, we finally broke the addiction), Concept, Set, Bohnanza, Hanabi, King of Tokyo, Dixit"
+    },
+    {
+        "image": "dan.jpg", 
+        "name": "Dan", 
+        "work": "Windows (server and desktop)", 
+        "game": "Dropzone Commander, Witcher, Skyrim, D&D, Warhammer, 40K, Rogue Trader"
+    },
+    {
+        "image": "emily.jpg", 
+        "name": "Emily", 
+        "work": "Music Education, Orff, building stage props for kids", 
+        "game": "Snake Oil, Mario 64, anything that involves getting up and dancing while playing"
+    },
+    {
+        "image": "justin.jpg", 
+        "name": "Justin", 
+        "work": "Engineering, product design, injection moulding, being way too good with 3D design", 
+        "game": "Payday 2, Payday 2"
+    },
+    {
+        "image": "drew.jpg", 
+        "name": "Drew", 
+        "game": "Battlefield, WoW, Heroes of the Storm, League of Legends, Artemis"
+    },
+    {
+        "image": "brayton.jpg", 
+        "name": "Brayton", 
+        "game": "Rocksmith, Payday 2, Steam Sales, Awesomenauts, Skyrim, D&D, Lifeboats"
+    },
+    {
+        "image": "megan.jpg", 
+        "name": "Megan", 
+        "work": "Art, design, running a business, art commissioning" 
+    },
+    {
+        "image": "zack.jpg", 
+        "name": "Zack", 
+        "game": "Final Fantasy 7, WoW, Bailey's, Elder Scrolls, XCom, Wasteland, Fallout, Turn Based RPGs"
+    },
+    {
+        "image": "bri.jpg", 
+        "name": "Bri", 
+        "game": "WoW, Shadowrun, Final Fantasy 6/7, Silent Hill, everyone taking too long to plan"
+    },
+    {
+        "image": "scott.jpg", 
+        "name": "Scott", 
+        "game": "Halo, Unreal Tournament, Sonic, Toe Jam & Earl"
+    },
+    {
+        "image": "ben.jpg", 
+        "name": "Ben", 
+        "work": "C, C++, Ruby, Git, Doing things right" 
+    },
+    {
+        "image": "guido.jpg", 
+        "name": "Guido", 
+        "game": "Dropzone Commander, Warhammer, Fallout, 40K, Rogue Trader"
+    },
+    {
+        "image": "rikki.jpg", 
+        "name": "Rikki", 
+        "game": "Dragon Age, Elder Scrolls, RPG Shipping"
+    },
+    {
+        "image": "nora.jpg", 
+        "name": "Nora",
+        "game": "Elder Scrolls, Munchkin, Quelf, any game where she can play a thief"
+    }
 ]}
